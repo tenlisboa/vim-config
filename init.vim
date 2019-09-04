@@ -6,8 +6,9 @@ Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'rking/ag.vim'
 Plug 'skwp/greplace.vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'garbas/vim-snipmate'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'posva/vim-vue'
 Plug 'alvan/vim-closetag'
 Plug 'jiangmiao/auto-pairs'
@@ -91,7 +92,7 @@ nmap <C-r> :CtrlPBufTag<cr>
 let g:ale_sign_error = '●'
 let g:ale_sign_warning = '.'
 let g:ale_lint_on_enter = 0
-let g:ale_fixers['javascript'] = ['eslint']
+"let g:ale_fixers['javascript'] = ['eslint']
 let g:ale_fix_on_save = 1
 
 "/

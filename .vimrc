@@ -18,6 +18,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'projekt0n/github-nvim-theme', { 'tag': 'v0.0.7' }
 Plug 'adelarsq/vim-matchit'
+Plug 'wakatime/vim-wakatime'
+Plug 'github/copilot.vim'
 " Initialize plugin system
 call plug#end()
 
